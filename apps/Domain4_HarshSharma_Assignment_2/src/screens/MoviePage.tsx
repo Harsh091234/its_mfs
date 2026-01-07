@@ -24,14 +24,14 @@ export default function MoviePage() {
   return (
     <div className="max-w-6xl mx-auto px-6 py-8 space-y-8">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <Card className="overflow-hidden rounded-2xl">
-          <AspectRatio ratio={2 / 2.5}>
+        <Card className="overflow-hidden rounded-2xl max-w-xs h-[27rem]">
+         
             <img
               src={data.Poster}
               alt="Inception"
               className="h-full w-full object-cover"
             />
-          </AspectRatio>
+          
         </Card>
 
         <div className="md:col-span-2 space-y-4">

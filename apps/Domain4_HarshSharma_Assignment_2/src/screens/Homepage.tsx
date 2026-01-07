@@ -1,26 +1,19 @@
-import MovieCard from "@/components/MovieCard";
-import { Button } from "@/components/ui/button";
-import { useGetMovieDetailsQuery, useLazyGetMovieDetailsQuery } from "@/services/api";
+
+import MovieCardContainer from "@/components/MovieCardContainer";
+
+import { trendingMovies } from "@/constants";
+
 
 const Homepage = () => {
-  const { data, isLoading, error, refetch } = useGetMovieDetailsQuery("commando");
 
-  if(isLoading) return <>loading...</>
-  if(error) return <>error</>
-  console.log("data:", data);
-  
 
   return (
-    <div className="flex min-h-svh p-3">
-      <MovieCard
-        title={data.Title}
-        posterUrl={data.Poster}
-        releaseDate={data.Released}
-        rating={data.imdbRating}
-        genres={data.Genre.split(",")}
-        overview={data.Plot}
-      
-      />
+    <div className=" min-h-svh p-3">
+      <div className="flex gap-8 flex-wrap">
+        {trendingMovies.map((title) => (
+          <MovieCardContainer key={title} title={title} />
+        ))}
+      </div>
     </div>
   );
 };
