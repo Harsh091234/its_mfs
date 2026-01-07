@@ -60,8 +60,6 @@ This project demonstrates CRUD operations (Create, Read, Update, Delete) using N
         }
     ]
 }
-- Screenshot
-![get_all_users](/public/screenshots/get_all_users.png)
 
 ---
 
@@ -84,7 +82,7 @@ This project demonstrates CRUD operations (Create, Read, Update, Delete) using N
     ]
 }
 - Screenshot
-![get_user_by_condition](/public/screenshots/get_user_by_condition.png)
+![get_user_by_condition](public/screenshots/get_user_by_condition.png)
 
 ---
 
@@ -148,7 +146,7 @@ This project demonstrates CRUD operations (Create, Read, Update, Delete) using N
     }
 }
 - Screenshot
-![update_user_role](/public/screenshots/update_user_role.png)
+![update_user_role](public/screenshots/update_user_role.png)
 
 ---
 
@@ -165,7 +163,7 @@ This project demonstrates CRUD operations (Create, Read, Update, Delete) using N
     "modifiedCount": 2
 }
 - Screenshot
-![age_increment](/public/screenshots/age_increment.png)
+![age_increment](public/screenshots/age_increment.png)
 
 --- 
 
@@ -180,7 +178,7 @@ This project demonstrates CRUD operations (Create, Read, Update, Delete) using N
     "message": "User deleted successfully"
 }
 - Screenshot:
-![delete_by_email](/public/screenshots/delete_by_email.png)
+![delete_by_email](public/screenshots/delete_by_email.png)
 
 ---
 
@@ -195,7 +193,7 @@ This project demonstrates CRUD operations (Create, Read, Update, Delete) using N
     "message": "Users above age 20 deleted successfully"
 }
 - Screenshot:
-![delete_above_age](/public/screenshots/delete_above_age.png)
+![delete_above_age](public/screenshots/delete_above_age.png)
 
 ---
 
@@ -211,7 +209,7 @@ This project demonstrates CRUD operations (Create, Read, Update, Delete) using N
     "message": "User collection dropped successfully"
 }
 - Screenshot:
-![delete_collection](/public/screenshots/delete_collection.png)
+![delete_collection](public/screenshots/delete_collection.png)
 
 
 ---
